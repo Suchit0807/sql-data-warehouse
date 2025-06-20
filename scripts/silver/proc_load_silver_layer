@@ -3,8 +3,8 @@
 -- Purpose: Full Load & Transformation from Bronze to Silver Layer
 -- Description: Applies data cleaning, validation, and enrichment rules
 --              with batch-level time tracking for each entity.
--- Author: [Your Name]
--- Last Updated: [Date]
+-- Author: Suchit Pathak
+-- Last Updated: 20/06/2025
 -- ===================================================================
 
 DROP PROCEDURE IF EXISTS sp_load_silver_layer_data;
