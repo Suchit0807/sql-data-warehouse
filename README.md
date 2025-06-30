@@ -1,47 +1,75 @@
 # 📊 Data Warehouse and Analytics Project
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This portfolio project showcases a complete data warehousing and analytics workflow — from ingesting raw data to delivering meaningful insights. It follows modern best practices in data engineering, modeling, and business analytics.
+This portfolio project showcases a complete data warehousing and analytics workflow — from ingesting raw data to delivering meaningful insights. It follows modern best practices in **data engineering**, **data modeling**, and **analytics reporting**.
 
 ---
 
-## 📖 Project Overview
+## 🏗️ Data Architecture Overview
 
-This project includes the following core components:
+This project is structured using the **Medallion Architecture** approach:
 
-1. **Data Architecture**: Building a modern data warehouse using the **Medallion Architecture**, structured into **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Designing and implementing SQL-based workflows to extract, transform, and load (ETL) data from multiple sources.
-3. **Data Modeling**: Creating star schema models with fact and dimension tables optimized for performance and analytical queries.
-4. **Analytics & Reporting**: Delivering actionable insights through structured views and SQL-driven reporting layers.
+![Data Architecture](/docs/architecture-diagram.png)
+
+- **Bronze Layer**: Raw ingested data from CRM and ERP systems (CSV files).
+- **Silver Layer**: Cleaned, standardized, and enriched data tables.
+- **Gold Layer**: Business-ready star schema built using views for analytics.
 
 ---
 
-### 🎯 Who Is This For?
+## 📖 Project Highlights
 
-This repository is ideal for professionals and students aiming to strengthen their portfolio or gain hands-on experience in:
+This project includes the following components:
 
-- SQL Development  
-- Data Architecture  
-- Data Engineering  
-- ETL Development  
-- Data Modeling  
-- Data Analytics  
+1. **Data Architecture** – Designing a layered PostgreSQL-based warehouse (Bronze → Silver → Gold).
+2. **ETL Pipelines** – Using SQL to extract, clean, transform, and load data into separate layers.
+3. **Data Modeling** – Creating dimensional models with fact and dimension tables in star schema.
+4. **Analytics & Reporting** – Business logic applied through SQL views for analysis-ready data.
+
+---
+
+## 🎯 Who Is This Project For?
+
+This repository is ideal for:
+
+- 📌 SQL Developers  
+- 📌 Aspiring Data Engineers  
+- 📌 Data Analysts working with ETL  
+- 📌 Anyone looking to build a strong project for a **portfolio** or job interview  
 
 ---
 
 ## 🚀 Project Requirements
 
-### 🏗️ Data Warehouse Construction (Engineering Focus)
+### ✅ Objective
+Build a modern data warehouse using PostgreSQL (originally based on SQL Server architecture) that integrates multiple datasets for business intelligence reporting.
 
-#### 🎯 Objective  
-Design and build a scalable data warehouse using **SQL Server**, enabling integration of sales data for reporting and business decision-making.
+### 🔧 Key Specs
 
-#### 📑 Key Specifications
-
-- **Source Systems**: Two structured datasets (ERP and CRM) provided as CSV files.
-- **Data Cleansing**: Identify and resolve data quality issues before downstream use.
-- **Data Integration**: Merge both systems into a unified, analytics-ready data model.
-- **Project Scope**: Focus on the most recent available data; no historization required.
-- **Documentation**: Ensure the data model and logic are clearly documented for both technical and business users.
+- **Source Systems**: ERP and CRM data from CSV files.
+- **Layers**: Bronze (raw) → Silver (cleansed) → Gold (analytical).
+- **Transformations**: Include null handling, standardization, business rule applications, and surrogate key creation.
+- **Output**: Star schema model with fact and dimension views for reporting and dashboarding.
 
 ---
+
+## 📂 Repository Structure
+
+```plaintext
+├── datasets/                # Source CSV files (CRM and ERP)
+│   ├── crm/
+│   └── erp/
+├── docs/                    # Project documentation, data catalogs, diagrams
+│   ├── architecture-diagram.png
+│   ├── data-integration.png
+│   ├── data-mart.png
+│   ├── data_catalog.md
+│   └── naming_convention.md
+├── scripts/                 # SQL DDL and procedural logic for loading layers
+│   ├── ddl_bronze.sql
+│   ├── ddl_silver.sql
+│   ├── ddl_gold.sql
+│   └── sp_load_silver_layer_data.sql
+├── tests/                   # Data validation and quality check scripts
+│   └── quality_check_gold_layer.sql
+├── README.md                # Project overview and introduction (this file)
