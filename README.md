@@ -53,26 +53,31 @@ Build a modern data warehouse using PostgreSQL (originally based on SQL Server a
 
 ---
 
-├── datasets/                        # Source data files (CSV)
-│   ├── crm/                         # CRM dataset (cust_info.csv, prd_info.csv, etc.)
-│   └── erp/                         # ERP dataset (cust_az12.csv, loc_a101.csv, etc.)
-├── docs/                            # Documentation and diagrams
+## 📁 Repository Structure
+
+├── datasets/
+│   ├── crm/
+│   └── erp/
+│
+├── docs/
 │   ├── architecture-diagram.png
 │   ├── data-integration.png
 │   ├── data-mart.png
 │   ├── data_catalog.md
 │   └── naming_convention.md
-├── scripts/                         # DDL scripts and stored procedures
-│   ├── init_database.sql            # Database & schema setup
+│
+├── scripts/
+│   ├── init_database.sql
 │   ├── bronze/
-│   │   └── ddl_bronze.sql           # Create Bronze Layer tables
+│   │   └── ddl_bronze.sql
 │   ├── silver/
-│   │   ├── ddl_silver.sql           # Create Silver Layer tables
-│   │   └── proc_load_silver_layer.sql  # Stored procedure for Silver Layer transformations
+│   │   ├── ddl_silver.sql
+│   │   └── proc_load_silver_layer.sql
 │   ├── gold/
-│   │   └── ddl_gold.sql             # Create Gold Layer views
-├── tests/                           # Validation & Quality Checks
+│   │   └── ddl_gold.sql
+│
+├── tests/
 │   ├── quality_check_silver_layer.sql
 │   └── quality_check_gold_layer.sql
-├── README.md                        # Project overview and documentation
-
+│
+├── README.md
