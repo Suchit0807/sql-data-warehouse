@@ -92,7 +92,7 @@ data-warehouse-project/
 ├── LICENSE                             # License info
 ├── .gitignore                          # Git ignore file
 └── requirements.txt                    # Dependencies and tools
-
+``` 
 ---
 
 ## 🌟 About Me
