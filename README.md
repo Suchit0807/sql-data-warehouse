@@ -55,18 +55,20 @@ Build a modern data warehouse using PostgreSQL (originally based on SQL Server a
 
 ## 📁 Repository Structure
 
-├── datasets/
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │   ├── crm/
 │   └── erp/
 │
-├── docs/
+├── docs/                               # Project documentation and architecture details
 │   ├── architecture-diagram.png
 │   ├── data-integration.png
 │   ├── data-mart.png
 │   ├── data_catalog.md
-│   └── naming_convention.md
+│   ├── naming_convention.md
 │
-├── scripts/
+├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── init_database.sql
 │   ├── bronze/
 │   │   └── ddl_bronze.sql
@@ -76,8 +78,12 @@ Build a modern data warehouse using PostgreSQL (originally based on SQL Server a
 │   ├── gold/
 │   │   └── ddl_gold.sql
 │
-├── tests/
+├── tests/                              # Test scripts and quality checks
 │   ├── quality_check_silver_layer.sql
 │   └── quality_check_gold_layer.sql
 │
-├── README.md
+├── README.md                           # Project overview and instructions
+├── LICENSE                             # License information for the repository
+├── .gitignore                          # Files and directories to be ignored by Git
+└── requirements.txt                    # Dependencies and requirements for the project
+
