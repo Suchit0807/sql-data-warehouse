@@ -95,32 +95,31 @@ data-warehouse-project/
 
 ---
 
-# 👨‍💻 About Me
-Hi! I'm Suchit Pathak, a passionate Data Analyst & aspiring Data Engineer based in the UK 🇬🇧.
-I love transforming raw data into structured insights that empower smarter decisions.
+## 🌟 About Me
 
-With a strong foundation in SQL, Python, PostgreSQL, and data modeling, I specialize in building clean, scalable data pipelines and applying robust analytics workflows that bridge the gap between data engineering and business intelligence.
+Hi there! I'm **Suchit Pathak**, a passionate **Data Analyst** & aspiring **Data Engineer** based in the UK 🇬🇧.  
+I enjoy transforming raw, messy datasets into meaningful insights and building scalable, clean data pipelines that solve real business problems.
 
-🔍 What I'm Exploring
-Currently diving deeper into:
+With a strong foundation in **SQL**, **Python**, **PostgreSQL**, and **data modeling**, I focus on delivering end-to-end solutions — from **data ingestion** to **analytics-ready outputs**.
 
-Advanced Data Warehousing
+### 🔍 Currently Exploring
+- Advanced **Data Warehousing**
+- **Business Intelligence** and Reporting
+- **Analytics Engineering** Concepts
 
-Business Intelligence
+### 💡 Core Strengths
+- Building structured **ETL pipelines**
+- Designing **star schemas** and **dimensional models**
+- Developing actionable **dashboards** and **KPI insights**
 
-Analytics Engineering
+### 🎯 What Drives Me
+Curiosity, continuous learning, and the passion to solve real-world problems using data.
 
-📊 What I Do Best
-Creating robust ETL pipelines
+---
 
-Designing dimensional data models
+📎 **Portfolio**: [https://suchit0807.github.io/suchit-portfolio/](https://suchit0807.github.io/suchit-portfolio/)  
+🔗 **LinkedIn**: [https://www.linkedin.com/in/suchit-pathak/](https://www.linkedin.com/in/suchit-pathak/)
 
-Building compelling visual analytics dashboards
+Let’s connect and talk data! 💬
 
-🧠 Curiosity Drives Me
-I'm always eager to explore how data can solve real-world business problems.
 
-📎 Portfolio: suchit0807.github.io/suchit-portfolio
-🔗 LinkedIn: linkedin.com/in/suchit-pathak
-
-Let’s connect and talk data!
