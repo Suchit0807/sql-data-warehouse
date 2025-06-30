@@ -54,7 +54,7 @@ Build a modern data warehouse using PostgreSQL (originally based on SQL Server a
 ---
 
 ## 📁 Repository Structure
-
+```plaintext
 data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
