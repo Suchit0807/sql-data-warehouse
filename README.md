@@ -59,31 +59,36 @@ data-warehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │   ├── crm/
+│   │   ├── cust_info.csv
+│   │   ├── prd_info.csv
+│   │   └── sales_details.csv
 │   └── erp/
+│       ├── cust_az12.csv
+│       ├── loc_a101.csv
+│       └── px_cat_g1v2.csv
 │
-├── docs/                               # Project documentation and architecture details
+├── docs/                               # Project documentation and architecture
 │   ├── architecture-diagram.png
 │   ├── data-integration.png
 │   ├── data-mart.png
 │   ├── data_catalog.md
-│   ├── naming_convention.md
+│   └── naming_convention.md
 │
-├── scripts/                            # SQL scripts for ETL and transformations
+├── scripts/                            # DDLs and stored procedures
 │   ├── init_database.sql
 │   ├── bronze/
 │   │   └── ddl_bronze.sql
 │   ├── silver/
 │   │   ├── ddl_silver.sql
 │   │   └── proc_load_silver_layer.sql
-│   ├── gold/
-│   │   └── ddl_gold.sql
+│   └── gold/
+│       └── ddl_gold.sql
 │
 ├── tests/                              # Test scripts and quality checks
 │   ├── quality_check_silver_layer.sql
 │   └── quality_check_gold_layer.sql
 │
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
-
+├── README.md                           # Project overview and structure
+├── LICENSE                             # License info
+├── .gitignore                          # Git ignore file
+└── requirements.txt                    # Dependencies and tools
