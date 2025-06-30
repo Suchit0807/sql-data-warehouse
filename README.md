@@ -53,23 +53,24 @@ Build a modern data warehouse using PostgreSQL (originally based on SQL Server a
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```plaintext
-├── datasets/                # Source CSV files (CRM and ERP)
+├── datasets/                # Source data files (CSV)
 │   ├── crm/
 │   └── erp/
-├── docs/                    # Project documentation, data catalogs, diagrams
+├── docs/                    # Documentation and diagrams
 │   ├── architecture-diagram.png
 │   ├── data-integration.png
 │   ├── data-mart.png
 │   ├── data_catalog.md
 │   └── naming_convention.md
-├── scripts/                 # SQL DDL and procedural logic for loading layers
+├── scripts/                 # DDLs and stored procedures
 │   ├── ddl_bronze.sql
 │   ├── ddl_silver.sql
 │   ├── ddl_gold.sql
 │   └── sp_load_silver_layer_data.sql
-├── tests/                   # Data validation and quality check scripts
+├── tests/                   # Data quality checks for each layer
+│   ├── quality_check_silver_layer.sql
 │   └── quality_check_gold_layer.sql
 ├── README.md                # Project overview and introduction (this file)
