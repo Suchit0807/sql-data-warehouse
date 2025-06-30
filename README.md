@@ -95,7 +95,7 @@ data-warehouse-project/
 
 
 
-👨‍💻 About Me
+## 👨‍💻 About Me
 Hi! I'm Suchit Pathak, a passionate Data Analyst & aspiring Data Engineer based in the UK 🇬🇧.
 I love transforming raw data into structured insights that empower smarter decisions.
 
