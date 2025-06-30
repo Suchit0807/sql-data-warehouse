@@ -117,8 +117,8 @@ Curiosity, continuous learning, and the passion to solve real-world problems usi
 
 ---
 
-📎 **Portfolio**: [https://suchit0807.github.io/suchit-portfolio/](https://suchit0807.github.io/suchit-portfolio/)  
-🔗 **LinkedIn**: [https://www.linkedin.com/in/suchit-pathak/](https://www.linkedin.com/in/suchit-pathak/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=githubpages&logoColor=white)](https://suchit0807.github.io/suchit-portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/suchit-pathak/)
 
 Let’s connect and talk data! 💬
 
