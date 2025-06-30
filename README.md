@@ -92,3 +92,32 @@ data-warehouse-project/
 ├── LICENSE                             # License info
 ├── .gitignore                          # Git ignore file
 └── requirements.txt                    # Dependencies and tools
+
+---
+
+## 👨‍💻 About Me
+
+Hi! I'm **Suchit Pathak**, a passionate **Data Analyst** & aspiring **Data Engineer** based in the UK 🇬🇧.
+
+With a strong foundation in **SQL, Python, PostgreSQL**, and **data modeling**, I specialize in building clean and scalable **data pipelines**, transforming messy data into meaningful insights.
+
+### 🔍 What I'm Exploring
+Currently diving deeper into:
+- **Advanced Data Warehousing**
+- **Business Intelligence**
+- **Analytics Engineering**
+
+### 📊 What I Do Best
+- Creating robust **ETL pipelines**
+- Designing **dimensional data models**
+- Building compelling **visual analytics dashboards**
+
+### 🧠 Curiosity Drives Me
+I'm always eager to explore how **data** can solve **real-world business problems**.
+
+---
+
+📎 **Portfolio**: [suchit0807.github.io/suchit-portfolio](https://suchit0807.github.io/suchit-portfolio/)  
+🔗 **LinkedIn**: [linkedin.com/in/suchit-pathak](https://www.linkedin.com/in/suchit-pathak/)
+
+Let’s connect and talk data!
