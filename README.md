@@ -53,24 +53,26 @@ Build a modern data warehouse using PostgreSQL (originally based on SQL Server a
 
 ---
 
-## 📁 Repository Structure
-
-```plaintext
-├── datasets/                # Source data files (CSV)
-│   ├── crm/
-│   └── erp/
-├── docs/                    # Documentation and diagrams
+├── datasets/                        # Source data files (CSV)
+│   ├── crm/                         # CRM dataset (cust_info.csv, prd_info.csv, etc.)
+│   └── erp/                         # ERP dataset (cust_az12.csv, loc_a101.csv, etc.)
+├── docs/                            # Documentation and diagrams
 │   ├── architecture-diagram.png
 │   ├── data-integration.png
 │   ├── data-mart.png
 │   ├── data_catalog.md
 │   └── naming_convention.md
-├── scripts/                 # DDLs and stored procedures
-│   ├── ddl_bronze.sql
-│   ├── ddl_silver.sql
-│   ├── ddl_gold.sql
-│   └── sp_load_silver_layer_data.sql
-├── tests/                   # Data quality checks for each layer
+├── scripts/                         # DDL scripts and stored procedures
+│   ├── init_database.sql            # Database & schema setup
+│   ├── bronze/
+│   │   └── ddl_bronze.sql           # Create Bronze Layer tables
+│   ├── silver/
+│   │   ├── ddl_silver.sql           # Create Silver Layer tables
+│   │   └── proc_load_silver_layer.sql  # Stored procedure for Silver Layer transformations
+│   ├── gold/
+│   │   └── ddl_gold.sql             # Create Gold Layer views
+├── tests/                           # Validation & Quality Checks
 │   ├── quality_check_silver_layer.sql
 │   └── quality_check_gold_layer.sql
-├── README.md                # Project overview and introduction (this file)
+├── README.md                        # Project overview and documentation
+
