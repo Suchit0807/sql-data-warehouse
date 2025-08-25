@@ -42,7 +42,7 @@ This repository is ideal for:
 ## 🚀 Project Requirements
 
 ### ✅ Objective
-Build a modern data warehouse using PostgreSQL (originally based on SQL Server architecture) that integrates multiple datasets for business intelligence reporting.
+Build a modern data warehouse using Databricks that integrates multiple datasets for business intelligence reporting.
 
 ### 🔧 Key Specs
 
