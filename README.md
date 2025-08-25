@@ -21,7 +21,7 @@ This project is structured using the **Medallion Architecture** approach:
 
 This project includes the following components:
 
-1. **Data Architecture** – Designing a layered PostgreSQL-based warehouse (Bronze → Silver → Gold).
+1. **Data Architecture** – Designing a layered Databricks SQL warehouse (Bronze → Silver → Gold).
 2. **ETL Pipelines** – Using SQL to extract, clean, transform, and load data into separate layers.
 3. **Data Modeling** – Creating dimensional models with fact and dimension tables in star schema.
 4. **Analytics & Reporting** – Business logic applied through SQL views for analysis-ready data.
